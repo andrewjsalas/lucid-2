@@ -1,0 +1,18 @@
+.nav-link {
+  color: black !important;
+}
+
+.nav-link:hover {
+  color: steelblue !important;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+}
+
+.image-grid img {
+  max-width: 15rem;
+  height: auto;
+}
